@@ -20,14 +20,14 @@ WHERE salary < (SELECT MAX(salary) FROM Employees));
 4. How do u calculate running totals ?
 
 5. How do you find customers who ordered for 3 consecutive days ?
+   
+
+6. How do you find employees earning more than the average salary of their department ?
    SELECT emp_name, salary 
    FROM Employees e
    WHERE Salary >
       (SELECT AVG(salary) FROM Employees 
-       WHERE dept_id = e.dept_id)
-
-6. How do you find employees earning more than the average salary of their department ?
-   SELECT 
+       WHERE dept_id = e.dept_id) 
 
 7.How do you identify managers who manage at least 5 employees ?
   SELECT manager_id, COUNT(*) as team_size
