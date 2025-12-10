@@ -1,14 +1,6 @@
-https://youtu.be/RiRAm_sOBLM
-
-D2 - https://youtu.be/VdttJskk450
-D3 - https://youtu.be/TRGXQslGyZA
-D4 - https://www.youtube.com/watch?v=dINCSmmnqc0
-
-https://youtu.be/dINCSmmnqc0
-
-D5 - https://www.youtube.com/watch?v=r0onG_RIz2E
-
-1. What is a Database ?
+Questions 
+-----------
+1. What is a SQL ? What is Database ?
 2. Types of SQL Commands
 3. What is Primary Key, Foreign Key, Unique key ?
 4. Diff between Primary Key Vs Unique Key 
@@ -17,49 +9,94 @@ D5 - https://www.youtube.com/watch?v=r0onG_RIz2E
 7. Diff between Delete VS Truncate Vs Drop ?
 8. Diff between WHERE vs HAVING ?
 9. What are Joins in SQL ?
-10.What is INNER, LEFT, RIGHT, FULL, Selef , Cross Join ?
+10.What is INNER, LEFT, RIGHT, FULL, Self, Cross Join ?
 11. What is Union and Union All and its difference?
 12. What is Normalization, Denormalization ?
 13. What is difference between CHAR and Varchar
-14. What is Nested Query?
-15. What is correlated Query ?
+14. Diff between Subquery, Nested Query, Correlated Query ?
+15. What is Subquery, Nested Query, Correlated Query ?
 16. What is Group By in SQL ?
 17. What is diff between Group By and Order By ?
 18. What is use of LIMIT in SQL ?
-19. How to find second highest salary in SQL ?
-20. How to find duplicate records in table ?
-21. What is CTE(common Table Expression) ?
-22. What is Temporary Table in SQL ?
-23. What is Window function in SQL ?
-24. Diff between ROW_Number(), RANK(), DENSE_RANK()?
-25. Case statement in  SQL ?
-26. What is COALESCE in SQL ?
-27. What is NVL function in SQL ?
-28. What is indexing in SQL ?
-29. What is Clustered Index and Non-Clustered Index ?and Its Difference ?
-30. View in SQL ?
-31. Diff between View Vs Table ?
-32. What is Stored Procedure ?
-33. What is Transaction in SQL ?
-34. Diff Between COMMIT and Rollback ?
-35. What is savepoint in SQL ?
-36. Diff between IN vs EXISTS ?
-37. What is Index Fragmentation ?
-38. How to fetch common records from two tables ?
-39. Dff UNION vs Join ?
-Pivot Table in SQL 
-Case Sensitivity in SQL ?
-Find nth hihghest salary ?
-How to get first 3 maximum salaries ?
-How to calculate Age from date of birth in SQL ?
-What is recursive query in SQL ?
-Diff between Temporary Table and CTE ?
-How to find Odd and Even records in SQL ?
-What is JSON in SQL ?
-What is XML in SQL 
-How to handle NULL values in SQL ?
-What is Dynamic SQL ?
-	
+19. What is CTE(common Table Expression) ?
+20. What is Temporary Table in SQL ?
+21. What is Window function in SQL ?
+22. Diff between ROW_Number(), RANK(), DENSE_RANK()?
+23. Case statement in  SQL ?
+24. What is COALESCE in SQL ?
+25. What is NVL function in SQL ?
+26. What is indexing in SQL ?
+27. What is Clustered Index and Non-Clustered Index ?and Its Difference ?
+28. View in SQL ?
+29. Diff between View Vs Table ?
+30. What is Stored Procedure, Function ? and its difference ?
+31. What is Trigger in SQL ?
+32. What is Cursor in SQL ?
+33. What is ACID Property in SQL ?
+34. What is Transaction in SQL ?
+35. Diff Between COMMIT and Rollback ?
+36. What is savepoint in SQL ?
+37. Diff between IN vs EXISTS ?
+38. What is Index Fragmentation ?
+39. How to fetch common records from two tables ?
+40. Dff UNION vs Join ?
+41. Pivot Table in SQL 
+42. Case Sensitivity in SQL ?
+43. Find nth hihghest salary ?
+44. How to get first 3 maximum salaries ?
+45. How to calculate Age from date of birth in SQL ?
+46. What is recursive query in SQL ?
+47. Diff between Temporary Table and CTE ?
+48. How to find Odd and Even records in SQL ?
+49. What is JSON in SQL ?
+50. What is XML in SQL ? 
+51. How to handle NULL values in SQL ?
+52. What is Dynamic SQL ?
+53. How to calculate Percentage in SQL ?
+54. How to find the employees who earn more than their manager ?
+55. How to find duplicate emails in the Employee Table 
+56. How to get highest Salary in each department ?
+57. How to get employees joned in last 3 months?
+58. How to optimize SQL Queries ?
+59. What is Query Execution Plan ?
+60. How to improve Query performance ?
+61. What is Indexing ?
+62. What is Table Partitioning ?
+63. How to avoid DeadLocks in SQL ?
+64. What is the use of EXISTS in SQL ?
+65. What is Query Optimization ?
+66. Diff between Stored Procedures and Function in SQL ?
+67. What is difference between OLTP and OLAP in SQL ?
+68. What is difference between SQL and MySQL ?
+69. What is Auto increment in SQL ?
+70. How to handle Exception in SQL ?
+71. How to write TRY.. CATCH in SQL ?
+
+**Practical SQL Query quesions******
+1. How to get the highest salary in each department ?
+2. How to find Employees joined in the last 3 months ?
+3. How to display first 5 records in SQL ?
+4. How to find the number of employees in each department ?
+5. How to find the last 3 records in SQL ?
+6. How to find employees without managers ?
+7. How to find the First Name starting with 'A' ?
+8. How to fetch alternative Rows from a table ?
+9. how to swap two columns in SQL ?
+10. How to find emploees without managers 
+11. How to display the duplicate records with their Count ?
+12. How to find Highest Salary without using MAX() ?
+13. How to fetch common records from two tables without JOIN ?
+14. How to delete duplicate records from a table ?
+15. How to find the department with the highest Employee Count ?
+16. How to find second highest salary in SQL ?
+17. How to find duplicate records in table ?
+
+
+
+
+
+
+
 
 
 
