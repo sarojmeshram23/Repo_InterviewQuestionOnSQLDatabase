@@ -1,0 +1,18 @@
+1. Second highest salary in database ?
+
+SELECT max(salary) as second_highest_salary
+FROM Employees
+WHERE salary < (SELECT MAX(salary) FROM Employees));
+
+2. How do you get top 3 salaries per department ?
+
+3. How do you remove duplicates while keeping the earliest record ?
+
+4. How do u calculate running totals ?
+
+5. How do you find customers who ordered for 3 consecutive days ?
+
+6. How do you find employees earning more than the average salary of their department ?
+
+7.sas
+
