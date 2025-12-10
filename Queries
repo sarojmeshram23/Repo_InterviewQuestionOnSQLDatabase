@@ -5,14 +5,40 @@ FROM Employees
 WHERE salary < (SELECT MAX(salary) FROM Employees));
 
 2. How do you get top 3 salaries per department ?
+  SELECT empname, dept_id, salary
+  FROM (
+        SELECT empname, dept_id, salary
+               DENSE_RANK() over(PARTITION BY dept_id ORDER BY Salary Desc) as rnnk
+        FROM employees
+   )t
+  WHERE rnnk <=3;
 
 3. How do you remove duplicates while keeping the earliest record ?
+  DELETE FROM Employees
+  WHERE 
 
 4. How do u calculate running totals ?
 
 5. How do you find customers who ordered for 3 consecutive days ?
+   
 
 6. How do you find employees earning more than the average salary of their department ?
+   SELECT 
 
-7.sas
+7.How do you identify managers who manage at least 5 employees ?
+  SELECT manager_id, COUNT(*) as team_size
+  FROM Employees
+  GROUP BY manager_id
+  HAVING COUNT(*) > =5;
+
+8. How do you fetch the third transaction of each user ?
+
+9. How do you compare each order amount with the previous order of the same user ?
+
+10. How do you detect users who logged in every day for the last 7 days ?
+
+References: 
+https://www.youtube.com/post/UgkxjfM_z4ZnxuMQfSJfJsvD922HY6yKsW2b
+Visionboard channel - InterviewQuestion 12/78
+
 
