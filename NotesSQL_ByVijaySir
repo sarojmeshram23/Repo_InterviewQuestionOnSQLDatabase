@@ -233,7 +233,7 @@ client tool :-
 -----------------
   ssms   (sql server management studio)
 
-  user----------ssms--------------------------------------sql server-------------------db
+ user----------ssms--------------------------------------sql server-------------------db
 
  SQL   :- 
  ------------
@@ -258,22 +258,21 @@ client tool :-
 
   USER-------PgAdmin--------------------------SQL--------------------POSTGRESQL-----------DB
 
-
   => based on operations over db SQL is categorized into following sublanguages. 
 
       DDL 		  (Data Definition Lang)
       DML		  (Data Manipulation Lang)
       DQL/DRL	  (Data Query Lang / Data Retrieval Lang)
       TCL		  (Transaction Control Lang)
-      DCL                       (Data Control Lang)
+      DCL         (Data Control Lang)
 
  			 SQL
 
-	DDL	DML	 DRL	TCL		DCL
+	DDL		DML		 DRL		TCL				DCL
 
-	create	insert	select	commit		grant	
-	alter	update		rollback		revoke
-	drop	delete		save transaction
+	create	insert		select	commit			grant	
+	alter	update				rollback	    revoke
+	drop	delete				save transaction
 	truncate   merge
 
   DATA & DATA DEFINITION 
