@@ -1,4 +1,4 @@
-SQL SERVER DEMO :-
+SQL SERVER DEMO :- (Full Line #8421)
 --------------------------------
 SQL  (structured query language)
 T-SQL  (transact-sql)
@@ -6,7 +6,7 @@ T-SQL  (transact-sql)
 what is db ?
 ------------
 a  db is a organized collection of interrelated data . for example a bank db stores data related to customers,accounts,transactions and loans etc
-and a univ db stores data related to students,course,faculty etc.
+and a university db stores data related to students,course,faculty etc.
 
 => day-to-day operations on db includes 
  
@@ -15,9 +15,8 @@ and a univ db stores data related to students,course,faculty etc.
  U   update
  D   delete
 
-what is dbms ?
-
-=>  DBMS stands for data base management system
+what is dbms(data base management system) ?
+---------------
  => It is a software used to create,read,update,delete data in db.
  => DBMS is an interface between user and database.
 
@@ -8419,8 +8418,4 @@ INSTEAD OF triggers :-
  
 Droping :-
 -------------
- 
 DROP TRIGGER TRG1 
-
-
-
