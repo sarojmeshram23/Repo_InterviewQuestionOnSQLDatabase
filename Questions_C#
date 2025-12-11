@@ -15,3 +15,17 @@ Main()
   What is the output of this program? 
 //what is problem here, here why we use virtual, override. 
 } 
+
+
+2.
+Class Program
+{
+    void main() 
+    {
+       static int a;
+       static CONST b;
+      //How these static variable will be called outside the class. 
+         Class is not static 
+           Method is static or not not sure.??
+    } 
+} 
