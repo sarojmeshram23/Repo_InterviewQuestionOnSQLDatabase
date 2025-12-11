@@ -1,0 +1,17 @@
+1. With multilevel inheritance, if we call base class method, then what will be output? 
+
+A - B - C
+
+Class A
+{ void print() {c.w.();} } 
+class B : A
+{ void print() {c.w.();} }
+Class C : B
+{ void print() {c.w.();} }
+Main() 
+{
+   A obj = new A() ;
+  // Question? 
+  What is the output of this program? 
+//what is problem here, here why we use virtual, override. 
+} 
