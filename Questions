@@ -71,6 +71,7 @@ Questions
 69. What is Auto increment in SQL ?
 70. How to handle Exception in SQL ?
 71. How to write TRY.. CATCH in SQL ?
+72. Cartesian join or cross join 
 
 **Practical SQL Query quesions******
 1. How to get the highest salary in each department ?
