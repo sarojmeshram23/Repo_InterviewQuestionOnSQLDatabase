@@ -1,9 +1,21 @@
 Practical
-------------
-SELECT REPLACE('SQL Tutorial', 'SQL', 'HTML');
-Output -> HTML Tutorial
+---------------------------------------------------------
+(1) SELECT REPLACE('SQL Tutorial', 'SQL', 'HTML');
+    Output -> HTML Tutorial
 
+(2)
+SELECT 
+CASE
+    WHEN (A+B<=C) OR (B+C<=A) OR (C+A<=B) THEN 'Not A Triangle'
+    WHEN A=B AND B=C AND C=A THEN 'Equilateral'
+    WHEN A=B OR B=C OR C=A THEN 'Isosceles'
+    WHEN (A<>B and B<>C and C<>A)  THEN 'Scalene'
+    
+END 
+FROM TRIANGLES; 
+go
 
+---------------------------------------------------------------------
 1. Second highest salary in database ?
 
 SELECT max(salary) as second_highest_salary
