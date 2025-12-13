@@ -268,12 +268,11 @@ client tool :-
 
  			 SQL
 
-	DDL		DML		 DRL		TCL				DCL
-
-	create	insert		select	commit			grant	
-	alter	update				rollback	    revoke
-	drop	delete				save transaction
-	truncate   merge
+	DDL			DML		 	DRL		TCL					DCL
+	create		insert		select	commit				grant	
+	alter		update				rollback	   		revoke
+	drop		delete				save transaction
+	truncate  	merge
 
   DATA & DATA DEFINITION 
 
@@ -281,39 +280,29 @@ client tool :-
   100	SACHIN	6000   => DATA 
 
 22-aug-25 
+----------
 
- Download & Install :- 
+Download & Install :- 
  ----------------------------
-
  1  SQL SERVER
  2  SSMS
 
- SQL SERVER :- 
- ------------------------
-
- download :- 
+ SQL SERVER download :- 
  ---------------
-
   https://www.microsoft.com/en-in/sql-server/sql-server-downloads
 
   choose sql server developer edition
 
   step-by-step installation :- 
  ------------------------------------
-
  https://www.mssqltips.com/sqlservertip/7313/install-sql-server-2022/
 
-  SSMS :- 
+  SSMS download :- 
  ------------
-
- download :- 
- ----------------
-
  https://learn.microsoft.com/en-us/ssms/install/install
 
 How to connect to sql server :- 
 ------------------------------------------
-
  => open ssms and enter following details
  
     SERVER  TYPE 		:-   DB Engine
@@ -326,8 +315,7 @@ How to connect to sql server :-
 
  How to create Database :- 
 -------------------------------------
- 
- => In object explorer  select   Databases => New Database 
+  => In object explorer  select   Databases => New Database 
 
       Enter Database Name  :-  DB4PM 
 
@@ -344,7 +332,6 @@ How to connect to sql server :-
 
   PATH :- 
   ----------
-
  C:\Program Files\
        Microsoft SQL Server\
        MSSQL15.MSSQLSERVER\
@@ -356,7 +343,6 @@ How to connect to sql server :-
 
  command to create new database :- 
  -------------------------------------------------
-
  => open Databases 
                          System Databases
                                                  master   => new query
@@ -372,15 +358,11 @@ How to connect to sql server :-
 
  Datatypes in sql server :- 
  ----------------------------------
-
  => a datatype specifies 
-
  1  what type of the data allowed in a column
  2  how much memory allocated for column
   
    		                                                Datatypes 
-
-
              CHAR	                   INTEGER	 FLOAT	         CURRENCY       DATE        BINARY
 
  ascii	           unicode             tinyint  		decimal(p,s)      smallmoney        date          binary 
@@ -392,7 +374,6 @@ How to connect to sql server :-
 
   char(size) :- 
  ------------------
-
   => allows character data upto 8000 chars
   => recommended for fixed length char fields 
 
@@ -408,24 +389,20 @@ How to connect to sql server :-
        variable length fields and char is recommended for fixed length fields 
 
           ex :-     GENDER    CHAR(1)
+				      M
+	      			  F
 
-	      M
-	      F
-
-                      STATE_CODE	CHAR(2)
-
+          STATE_CODE	CHAR(2)
 	      AP
 	      TG
 	      MH
  
-                      COUNTRY_CODE    CHAR(3)
-
+          COUNTRY_CODE    CHAR(3)
 	      IND
 	      USA
 
  VARCHAR(size) :- 
-  ------------------------
-
+ ------------------------
   => allows character data upto 8000 chars 
   => varchar is recommended for varialbe length fields
 
@@ -439,23 +416,20 @@ How to connect to sql server :-
  
  VARCHAR(max) :- 
  --------------------------
-
   => allows character data upto 2GB.
 
    Ex :-    review     varchar(max) 
 
  NOTE :- 
-
   => char/varchar/varchar(max)  allows ascii chars (256 chars) that includes
        a-z,A-Z,0-9,special chars i.e. allows alphanumeric data.
 
       ex :-             panno     char(10)
-                          vehno     varchar(10)
-                          emailid    varchar(20)
+                        vehno     varchar(10)
+                        emailid    varchar(20)
 
   NCHAR/NVARCHAR/NVARCHAR(max) :-    ( N => National)
   --------------------------------------------------------
-
   => allows unicode chars (65536) that includes all ascii chars and chars
        belongs to different languages.
 
@@ -463,45 +437,39 @@ How to connect to sql server :-
  
  INTEGER types :- 
  ------------------------
-
  => allows numbers without decimal (integers)
 
         Types	  bytes		range
- 
         tinyint	  1		 0 to 255	
-        smallint	  2	                 -2^15 (-32768) to 2^15-1 (32767)			
+        smallint  2	     -2^15 (-32768) to 2^15-1 (32767)			
         int		  4		-2^31  to  2^31-1
-        bigint	  8 		-2^63  to  2^63-1
+        bigint	  8 	-2^63  to  2^63-1
 
      ex  :-     AGE    	  TINYINT
-                  EMPID  	  SMALLINT
+                EMPID  	  SMALLINT
               
  NUMERIC(p) :- 
  --------------------
-
   => allows numbers without decimal upto 38 digits 
 
      ex  :-    empid    NUMERIC(4)
-
                   10
                   100
                   1000
                   10000   => not allowed 
 
                    aadharno     NUMERIC(12)
-                   accno           NUMERIC(16)
-                   phone           NUMERIC(10)
+                   accno        NUMERIC(16)
+                   phone        NUMERIC(10)
  
 DECIMAL(p,s) / NUMERIC(p,s)  :- 
 --------------------------------------------
-
   =>  allows numbers with decimal (float)
   
   p  => precision  => total no of digits allowed 
-  s  => scale        => no of digits allowed after decimal 
+  s  => scale      => no of digits allowed after decimal 
 
     ex  :-      SALARY    DECIMAL(7,2)
-
                    5000
                    5000.56
                    50000.56
@@ -514,22 +482,19 @@ DECIMAL(p,s) / NUMERIC(p,s)  :-
 
   CURRENCY types :- 
   --------------------------
- 
   => currency types are used for fields related to money
 
-          Types		bytes		range
-
+          Types			bytes		range
           SMALLMONEY	4 bytes		-2,14,748.3648  to  2,14,748.3647
-          MONEY		8 bytes                  	-922,337,203,685,477.5808 to 922,337,203,685,477.5807        
+          MONEY			8 bytes     -922,337,203,685,477.5808 to 922,337,203,685,477.5807        
 
-            Ex  :-     SALARY   	SMALLMONEY
-                         BALANCE	MONEY
+            Ex  :-     SALARY   SMALLMONEY
+                       BALANCE	MONEY
 	        
 25-aug-25
 
    DATE & TIME  :- 
    -----------------------
-
    DATE			=>    allows only date
    TIME			=>    allows only time
    DATETIME		=>    allows both date & time 
@@ -538,21 +503,17 @@ DECIMAL(p,s) / NUMERIC(p,s)  :-
  => default time format is hh:mm:ss
 
       ex  :-     DOB	  DATE
-	  
- 	 2001-04-20
-                 2025-08-25
+	  			2001-04-20
+                2025-08-25
 	 
 	 LOGIN	   TIME
-
 	 9:00:00
 
 	TXNDT	    DATETIME
-
-	 2025-08-25 10:00:00	    
+    2025-08-25 10:00:00	    
 
  Binary Types :- 
  -------------------
-
   => binary types allows multimedia objects like audio,video,images 
  
  BINARY		=> allows binary data upto 8000 bytes
@@ -560,11 +521,10 @@ DECIMAL(p,s) / NUMERIC(p,s)  :-
  VARBINARY(MAX)  => allows binary data upto 2GB
 
   ex  :-     photo   varbinary(8000)
-               movie   varbinary(max)
+             movie   varbinary(max)
                
   Creating tables in sql server :- 
   -----------------------------------------
-
   CREATE TABLE <tabname>
   (
      colname  datatype(size) ,
@@ -575,7 +535,6 @@ DECIMAL(p,s) / NUMERIC(p,s)  :-
 
   Rules :- 
   -----------
-
  1   name should start with alphabet
  2   name should not contain spaces & special chars but allows  _    $    #
  3   name can be upto 128 chars
@@ -583,13 +542,12 @@ DECIMAL(p,s) / NUMERIC(p,s)  :-
  5   no of rows unlimited 
 
   ex :-    123emp		invalid
-              emp 123		invalid
-              emp*123		invalid
-              emp_123		valid
-              [123]		valid			 
+           emp 123		invalid
+           emp*123		invalid
+           emp_123		valid
+           [123]		valid			 
 
 Ex :- 
-
   => create table with following structure ? 
 
   EMP
@@ -599,8 +557,8 @@ Ex :-
   (
       empid     TINYINT,
       ename    VARCHAR(10),
-      job          VARCHAR(10),
-      sal          SMALLMONEY,
+      job      VARCHAR(10),
+      sal       SMALLMONEY,
       hiredate  DATE,
       dept        VARCHAR(10)
    )  
@@ -611,12 +569,10 @@ Ex :-
 
   SP_HELP     :-       (sp  => stored procedure)
  ----------------------
-
  => command to see the structure of the table
-
                   SP_HELP   <tabname>
 
-    Ex :-       SP_HELP  emp 
+    Ex :-     SP_HELP  emp 
 
 	empid	tinyint		no	1
 	ename	varchar		no	10
@@ -627,7 +583,6 @@ Ex :-
 
  Inserting data into table :- 
  -----------------------------------
-
  => "insert" command is used to insert data into table
  =>  insert command creates a new row
  =>  we can insert 
@@ -637,38 +592,32 @@ Ex :-
 
  inserting single row :- 
  -----------------------------
-
     INSERT INTO <tabname> VALUES(v1,v2,v3,-------------)
 
  Ex :- 
- 
    INSERT INTO emp VALUES(100,'sachin','clerk',4000,'2025-08-25','hr')
    INSERT INTO emp VALUES(101,'arvind','manager',9000,getdate(),'sales')
 
-          getdate()  =>  it is a function that returns current date
+   getdate()  =>  it is a function that returns current date
 
 inserting multiple rows :- 
 ---------------------------------
-
-  INSERT INTO emp VALUES(102,'rahul','analyst',8000,'2020-04-20','it') , 
+INSERT INTO emp VALUES(102,'rahul','analyst',8000,'2020-04-20','it') , 
                                                 (103,'vijay','clerk',6000,'2018-10-15','sales')
 
 
   Inserting nulls :- 
   -----------------------
-
    => a  null means blank or empty
    => it is not equal to 0 or space
    => nulls can be inserted in two ways 
 
    method 1 :- 
    ----------------
-
    INSERT INTO emp VALUES(104,'david',NULL,NULL,'2019-03-10','hr')
 
   method 2 :- 
   -----------------
-
     INSERT INTO emp  VALUES(105,'ajay','2021-09-18','hr')   => ERROR
 
     INSERT INTO emp (empid,ename,hiredate,dept) VALUES(105,'ajay','2021-09-18','hr') => 1 ROW CREATED 
@@ -679,7 +628,6 @@ inserting multiple rows :-
 
   Operators in SQL SERVER :-  
   ----------------------------------------
-
  Arithmetic Operators	=>	+    -      *       /     %  
  Relational Operators	=>  	>   >=    <    <=    =     <>    !=
  Logical Operators		=>	AND   OR   NOT 
@@ -691,29 +639,27 @@ inserting multiple rows :-
 				ALL
 				EXISTS
 				PIVOT
-Set Operators		=>	UNION
+Set Operators	 =>	UNION
 				UNION ALL
 				INTERSECT
 				EXCEPT
 
 Displaying Data :- 
 ------------------------
-
  =>  "SELECT" command is used to display data from table
  =>  we can display all rows & all columns 
  =>  we can display specific rows and specific columns
  
-                SELECT columns / *   FROM  tabname 
+         SELECT columns / *   FROM  tabname 
 
           SQL	=	ENGLISH	
           QUERIES	=	SENTENCES
-          CLAUSES	=              WORDS
+          CLAUSES	=      WORDS
 
            FROM clause  => specify which table data you want to see
            SELECT clause => specify which columns you want to see
 
  Ex :- 
-
    => display employee names and salaries ? 
 
          SELECT  ename,sal  FROM emp 
@@ -730,18 +676,15 @@ Displaying Data :-
 
 WHERE clause :- 
 -------------------------
-
  => where clause is used to fetch specific row/rows from table based on a condition
 
  syntax :-
-
       SELECT columns / *
       FROM tabname
       [WHERE condition] 
 
  condition :- 
  -----------------
-
                 COLNAME   OP    VALUE 
 
   =>   a condition is always a relational expression
@@ -750,7 +693,6 @@ WHERE clause :-
   =>   if cond = true row is selected , if cond = false row is not selected 
 
  Ex :- 
-
    => display employee details whose id = 103  ?
 
         SELECT  * 
@@ -793,7 +735,6 @@ WHERE clause :-
 
 compound condition :- 
 -----------------------------
-
  => multiple conditions combined with  AND / OR  operators is called compound condition
 
              WHERE  cond1   AND    cond2 	   result
@@ -908,7 +849,6 @@ list of students who are failed ?
 
 IN operator :- 
 -------------------
-
 => use IN operator for list comparison  
 => use IN operator for "=" comparison with multiple values 
 
@@ -923,7 +863,6 @@ IN operator :-
              col = v3
 
 Ex :- 
-
  => employees whose id = 100,103,105 ? 
 
       SELECT *
@@ -952,17 +891,16 @@ Ex :-
    
 BETWEEN operator :- 
 ---------------------------------
-
  =>  use between operator for range comparison 
   
        range :-  5000 to 10000
-                     2020 to 2025 
+            	 2020 to 2025 
                      
            WHERE  colname BETWEEN  V1 AND V2       
 
   WHERE col >= v1       =================>   WHERE col  BETWEEN  v1 AND v2 
-                 AND
-                 col <= v2
+          AND
+        col <= v2
 
 => list of employees earning between 5000 and 10000 ?  
  
@@ -1032,22 +970,20 @@ BETWEEN operator :-
  
 LIKE operator :- 
 ------------------------
-
  => use LIKE operator for pattern comparison
 
       ex :-   name starts with 'a'
-                emailid ends with .in
+              emailid ends with .in
                 
-                WHERE  colname  LIKE  'pattern'
+              WHERE  colname  LIKE  'pattern'
 
   => pattern is also a string made up of alphabets,digits,special chars and wildcard chars
 
  wildcard chars :- 
  ------------------------
-
  	%	0  or many chars
 
-	_       	exactly 1 char
+	_       exactly 1 char
 
      Ex :- 
 
