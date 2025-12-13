@@ -25,6 +25,18 @@ wrong_cte AS
 AS wrong_avg FROM employees ) 
 SELECT CEILING(correct_avg - wrong_avg) FROM correct_cte, wrong_cte;
 go
+
+(4)
+SELECT Name + '('+left(Occupation, 1)+')' AS First_Query
+FROM Occupations
+ORDER BY First_Query;
+
+SELECT 'There are a total of '+cast(count(occupation) AS varchar)+' '+lower(Occupation)+'s.' from Occupations
+Group by occupation
+ORDER By count(occupation);
+go
+
+(5)
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
