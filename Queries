@@ -1,5 +1,8 @@
 Practical
 ---------------------------------------------------------
+The term "pivot" refers to the process of transforming rows into columns to summarize or aggregate data, 
+creating a cross-tabulation report.
+
 (1) SELECT REPLACE('SQL Tutorial', 'SQL', 'HTML');
     Output -> HTML Tutorial
 
@@ -36,7 +39,6 @@ Group by occupation
 ORDER By count(occupation);
 go
 
-(5)
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
