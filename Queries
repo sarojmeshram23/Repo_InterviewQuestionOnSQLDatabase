@@ -15,6 +15,16 @@ END
 FROM TRIANGLES; 
 go
 
+(3)
+WITH correct_cte AS 
+  ( SELECT AVG(CAST(salary AS DECIMAL(18,6))) 
+AS correct_avg FROM employees )
+, 
+wrong_cte AS 
+( SELECT AVG( CAST( COALESCE( NULLIF(REPLACE(salary, 0, ''), ''), '0') AS DECIMAL(18,6)) )
+AS wrong_avg FROM employees ) 
+SELECT CEILING(correct_avg - wrong_avg) FROM correct_cte, wrong_cte;
+go
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
