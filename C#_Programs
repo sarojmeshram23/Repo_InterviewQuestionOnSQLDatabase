@@ -1,0 +1,20 @@
+Program 1: print its even-indexed and odd-indexed characters as  space-separated strings on a single line.
+-----------------------------------------------------------------------------------------------------------
+static void Main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
+        //int charSpace = int.Parse(Console.ReadLine());
+        string str = Console.ReadLine();
+        
+        for(int i =0; i<str.Length -1; i++)
+        {
+            Console.Write(str[i]);
+            ++i;
+        }
+        Console.Write(" ");
+        for(int i =0; i<str.Length -1; i++)
+        {
+            i=i+1;
+            Console.WriteLine(str[i]);
+        }
+        Console.WriteLine();
+    }
