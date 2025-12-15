@@ -39,6 +39,13 @@ Group by occupation
 ORDER By count(occupation);
 go
 
+(5) Select max(salary*months), count(max(salary*months)) FROM Employee;
+o/p -> Cannot perform an aggregate function on an expression containing an aggregate or a subquery.
+
+Correct Query -> 
+SELECT max(months*salary), count(*) from Employee 
+where (months*salary) = (SELECT max(months*salary) from Employee) ;
+
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
