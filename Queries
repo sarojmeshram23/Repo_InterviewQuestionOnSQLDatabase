@@ -46,6 +46,10 @@ Correct Query ->
 SELECT max(months*salary), count(*) from Employee 
 where (months*salary) = (SELECT max(months*salary) from Employee) ;
 
+(6) //Decimal 4 places
+CAST(SUM(column) AS NUMERIC(38,4))
+
+
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
