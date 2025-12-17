@@ -73,6 +73,58 @@ Questions
 71. How to write TRY.. CATCH in SQL ?
 72. Cartesian join or cross join 
 
+✅ *Top 50 SQL Interview Questions* 🧠
+1. What is SQL and why is it used?
+2. Difference between SQL and MySQL
+3. What are primary keys and foreign keys?
+4. What is a unique constraint?
+5. Difference between WHERE and HAVING
+6. What are joins? Types of joins?
+7. Difference between INNER JOIN and LEFT JOIN
+8. What is a subquery?
+9. What are CTEs (Common Table Expressions)?
+10. What is a view in SQL?
+11. How do you remove duplicate records?
+12. What is normalization? Explain its types
+13. What is denormalization?
+14. What is a stored procedure?
+15. What are indexes and why are they used?
+16. What is the difference between clustered and non-clustered index?
+17. What is a transaction?
+18. ACID properties in SQL
+19. Difference between DELETE, TRUNCATE, and DROP
+20. What is a NULL value in SQL?
+21. How do you handle NULLs in queries?
+22. What is COALESCE() in SQL?
+23. What are aggregate functions?
+24. What is GROUP BY and how does it work?
+25. What is the difference between COUNT(*) and COUNT(column)?
+26. What are window functions?
+27. Difference between RANK(), DENSE_RANK(), and ROW_NUMBER()
+28. What is the use of LAG() and LEAD()?
+29. What is a CASE statement?
+30. What is the difference between CHAR and VARCHAR?
+31. What are constraints in SQL?
+32. What is a composite key?
+33. What are scalar vs table-valued functions?
+34. How does indexing affect performance?
+35. What is data integrity?
+36. What are triggers in SQL?
+37. What is a correlated subquery?
+38. What is a cross join?
+39. What is UNION vs UNION ALL?
+40. Difference between EXISTS and IN
+41. What are set operations in SQL?
+42. What is a materialized view?
+43. Explain the BETWEEN operator
+44. What is a pivot table in SQL?
+45. How do you optimize SQL queries?
+46. How do you handle slow queries?
+47. What is execution plan in SQL?
+48. What’s the use of LIMIT / OFFSET?
+49. How do you import/export data in SQL?
+50. How would you clean messy data using SQL?
+
 **Practical SQL Query quesions******
 1. How to get the highest salary in each department ?
 2. How to find Employees joined in the last 3 months ?
