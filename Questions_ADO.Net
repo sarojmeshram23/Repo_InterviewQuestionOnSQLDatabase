@@ -1,1 +1,117 @@
+Question 1: What is ADO.NET?
+Answer 1: ADO stands for Active Data Object and ADO.NET is a set of .NET libraries for ADO.
 
+2. ADO.NET provides mainly the following two types of architectures:
+Connected Architecture.
+Disconnected Architecture.
+
+ADO.NET Namespaces
+------------------------------------
+Namespaces	Description
+System.Data	->  Contains the definition for columns, relations, tables, database, rows, views and constraints.
+System.Data.SqlClient -> 	Contains the classes that are used to connect to a Microsoft SQL Server database such as SqlCommand, SqlConnection, SqlDataAdapter.
+System.Data.Odbc	-> Contains classes required to connect to most ODBC drivers. These classes include OdbcCommand,OdbcConnection.
+System.Data.OracleClient -> Contains classes such as OracleConnection,OracleCommand required to connect to an Oracle database.
+
+ 3: What are the ADO.NET components?
+ 4: How can you define the DataSet structure?
+ 5: What is Connection Pooling in ADO.NET?
+ 6: What is the differences Between DataReader and DataSet?
+ 7: What is SqlCommand Object?
+  The three important methods exposed by the SqlCommand object is shown below:
+
+ExecuteScalar
+ExecuteNonQuery
+ExecuteReader
+
+8. What is the difference between ADO and ADO.NET?
+9: What is the DataAdapter Object in ADO.NET?
+Provider-Specific Data Adapter classes	          Data Source
+SqlDataAdapter	                                  SQL Server
+OledbDataAdapter	                                OLE DB provider
+OdbcDataAdapter	                                  ODBC driver
+OracleDataAdapter                                	Oracle
+9: Use of DataSet object in ADO.NET?
+ 10: Describe the System.Data Namespace Class?
+ 11: What is DataTable in ADO.NET?
+
+protected void BinddataTable()
+{
+    SqlConnection con = new SqlConnection("your database connection string");
+    con.Open();
+    SqlCommand cmd = new SqlCommand("Write your query or procedure", con);
+    SqlDataAdapter da = new SqlDataAdapter(cmd);
+    DataTable dt = new DataTable();
+    da.Fill(dt);
+    grid.DataSource = dt;
+    grid.DataBind();
+}
+
+ 12: What is the DataReader in ADO.Net?
+      DataReader holds only one table at a time.
+      It only provides read only access mode and cannot write data.
+      It is not required local storage to data store.
+      Holds one row at a time.
+      Uses less memory.
+      DataReader do not maintain relation.
+  DataReader representation in .aspx.cs code,
+  protected void Bind()
+{
+    SqlConnection con = new SqlConnection("your database connection string ");
+    con.Open();
+    SqlCommand cmd = new SqlCommand("Write your query or procedure ", con);
+    SqlDataReader dr = cmd.ExecuteReader();
+    grid.DataSource = dr;
+    grid.DataBind();
+}
+
+13: What is the SqlCommandBuilder?
+ 14: What is the Connection object in ADO.NET?
+15: Describe the DataView in ADO.NET?
+16: What is ExecuteScalar method in ADO.NET?
+private void frmSqlCommand_Load(object sender, EventArgs e)
+{
+    //Sample 03: Open Database Connection
+    String con_string = Properties.Settings.Default.ConStrPubs;
+    pubs_db_connection = new SqlConnection(con_string);
+    pubs_db_connection.Open();
+    //Sample 04: Form the Command Object
+    SqlCommand cmd = new SqlCommand();
+    cmd.CommandText = "Select Count(*) as Count from Titles";
+    cmd.Connection = pubs_db_connection;
+    //Sample 05: Execute the Command & retrive scalar value
+    lblTotal.Text = System.Convert.ToString(cmd.ExecuteScalar());
+}
+
+17: What are the methods of DataSet?
+Answer: It is used in disconnected architecture. It represent records in the form of Database table (Row and Column) format. 
+It stores record of one or more tables.
+
+SqlDataAdapter da;
+DataSet ds;
+string strconn = "Data Source=YourServerName;Initial Catalog=EMP;Integrated Security=True";
+private void Form1_Load(object sender, EventArgs e)
+{
+    da = new SqlDataAdapter("select * from userdet", strconn);
+    ds = new System.Data.DataSet();
+    da.Fill(ds);
+    dataGridView1.DataSource = ds.Tables[0];
+}
+18. 18: What are Parameters in ADO.NET?
+19: What is the difference between DataSet and DataReader?
+20 : What you understand by ExecuteNonQuery Method?
+21: What do you understand by DataRelation class?
+22: How can create a SqlConnection?
+SqlConnection obj=new SqlConnection(“Integrated Security=true;Initial Catalog=Table_Name;Data Source=.”);-- for Windows authentication
+
+SqlConnection obj=new SqlConnection(“user id= sa ; Password=sa123;server=.;database=name”); --Sql server Authentication
+ 23: What are the important classes in ADO.NET?
+25: What are the two fundamental objects in ADO.NET?
+26: What is DataAdapter and its property?
+27: Which namespaces are used for data access?
+28: Explain the properties and methods of Command Object.
+ 29: Explain the ExecuteReader method
+
+References 
+------------
+https://www.c-sharpcorner.com/UploadFile/puranindia/ado-net-interview-questions-and-answers/
