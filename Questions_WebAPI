@@ -78,11 +78,12 @@ ASP.NET Web API Interview Questions
 14. Can we return View from ASP.NET Web API method?
 15. What is content negotiation in ASP.Net Web API?
 16. Difference between HTTP GET vs HTTP Post?
-17. What is CORS in Web API?
+17. What is CORS(Cross-Origin Resource Sharing)  in Web API?
 18. Name method that validates all controls on page?
 19. What parameters can be passed in the URL of API?
 20. What is the use of DelegatingHandler?
 21. Web API uses which library for JSON serialization?
+   -> Json.NET library is used by Web API for JSON serialization. 
 22. Explain method to handle error using HttpError in Web API?
 23. How to unit test Web API?
 
