@@ -1,1 +1,90 @@
+1. Diff between Web API and REST API ?
+2. What is Web API and why we use it ?
+3. What is MVC? Write difference between MVC and Web API?
+4. How to register an exception filter globally?
+5. How to handle errors in Web API?
+6. Who can consume Web API?
+A large range of clients such as browsers, mobile devices, iPhone, etc., include or consume web API. 
+It is also good for using along native applications that require web services but not SOAP support. It can also be consumed by any client that supports HTTP verbs such as GET, DELETE, POST, PUT.
 
+7. What are Web API filters?
+Filters are basically used to add extra logic at different levels of Web API framework request processing.  Different types of Web API filters are available as given below:
+
+i. Authentication Filter: It handles authentication and authenticates HTTP requests. It also helps to authenticate user detail. It checks the identity of the user.
+ii. Authorization Filter: It handles authorization. It runs before controller action. This filter is used to check whether or not a user is authenticated. If the user is not authenticated, then it returns an HTTP status code 401 without invoking the action.
+--> AuthorizeAttribute is a built-in authorization filter provided by Web API.
+iii. Action Filter: It is attributing that one can apply to controller action or entire controller. It is used to add extra logic before or after controller action executes. It is simply a way to add extra functionality to Web API services.
+iv. Exception Filter: It is used to handle exceptions that are unhandled in Web API. It is used whenever controller actions throw an unhandled exception that is not HttpResponseException. It will implement an “IExceptionFilter” interface.
+v. Override Filter: It is used to exclude specific action methods or controllers from the global filter or controller level filter. It is simply used to modify the behavior of other filters for individual action methods.
+
+8. What is XML and JSON?
+XML (Extensible Markup Language): 
+
+It is especially designed to store and transport data.
+It is similar to HTML but is more flexible than HTML because it allows users to create their own custom tags.
+It is used for representing structured information such as documents, data, configuration, etc.
+
+JSON (JavaScript Object Notation): 
+
+It is a lightweight format designed to store and transport data.
+It is easier to understand and is a standard text-based format used for representing structured data based on JavaScript object syntax.
+It is faster and easier to use. 
+
+9. Which of the following Open-source libraries is used by WEB API for JSON serialization?
+Json.NET library is generally used by Web API for JSON serialization.
+
+9. Explain media type formatters.
+10. Why is the Web API important?
+
+11. What are the main return types supported in Web API?
+It does not have any specific data type. It can return data of any type depending upon the business requirement. There are many HTTP methods like GET, POST, PUT, etc., which can return data in different formats depending upon the use case. 
+
+12. What is the difference between Web API and WCF?
+WCF (Windows Communication Foundation): It is a framework used for developing SOAP (Service-oriented applications). This framework is used for developing, configuring, and deploying, or implementing network-distributed services. 
+
+Web API: It is an application programming interface for both web browsers and web servers. Browser API simply extends or increases the functionality of web browsers whereas Server API simply extends or increases the functionality of web server.
+
+Web API	                                                                            WCF
+1. It is used to develop both SOAP-based services and RESTful services.	        It is used to deploy only SOAP-based services.
+2. It supports various MVC features such as routing, model binding, etc.	      It does not support any MVC features.
+3. It only supports HTTP protocol.	                                            It supports various protocols such as HTTP, UDP, custom                                                                                   transport.
+4. It is considered best for developing RESTFUL services.	                      It supports only limited RESTFUL services.
+5. It is good when one wants to expose an expensive range of                    It is good for creating services that uses expedite        clients such as iPhones, browsers, mobile phones, tablets, etc.               transport channels such as TCP, UDP, Named pipes, etc.
+	
+6.It offers support for UTF-8 encoding format.                                  It offers TEXT, Binary encoding support, MTOM (Message                                                                                   Transmission Optimization Mechanism), etc.
+
+13. Why to choose Web API over WCF?
+14. What are the advantages of using Rest in Web API?
+15. Web API supports which protocol? -> Web API generally supports only HTTP protocol.
+16. What is Web API 2.0?
+17. What is REST and SOAP? What is different between them?
+18. What is different between REST API and RESTful API?
+
+ASP.NET Web API Interview Questions
+---------------------------------------------
+1. What is ASP.NET Web API?
+2. What are the advantages of using ASP.NET Web API?
+3. What are new features used in ASP.NET Web API 2.
+4. What is the use of HttpResponseMessage?
+5. What is the difference between ApiController and Controller?
+6. What do you mean by Caching and What are its types?
+7. WCF is replaced by ASP.NET Web API. True/False?
+8. What are the main return types supported in ASP. Net Web API?
+9. What is ASP.NET Web API routing?
+10. HOW to secure ASP.NET Web API?
+11. What are Exception filters in ASP.NET Web API?
+12. Which .NET framework supports ASP.NET Web API?
+13. What is HttpConfiguration in Web API?
+14. Can we return View from ASP.NET Web API method?
+15. What is content negotiation in ASP.Net Web API?
+16. Difference between HTTP GET vs HTTP Post?
+17. What is CORS in Web API?
+18. Name method that validates all controls on page?
+19. What parameters can be passed in the URL of API?
+20. What is the use of DelegatingHandler?
+21. Web API uses which library for JSON serialization?
+22. Explain method to handle error using HttpError in Web API?
+23. How to unit test Web API?
+
+References
+https://www.interviewbit.com/web-api-interview-questions/
