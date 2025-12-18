@@ -49,7 +49,12 @@ where (months*salary) = (SELECT max(months*salary) from Employee) ;
 (6) //Decimal 4 places
 CAST(SUM(column) AS NUMERIC(38,4))
 
-
+(4) 
+With P1_diff AS
+            (Select CAST((max(LAT_N)-min(LAT_N)) AS Decimal(38, 4)) AS P1 FROM Station),
+P2_diff AS
+            (Select CAST((max(LONG_W)-min(LONG_W)) AS Decimal(38, 4)) AS P2 FROM Station)
+Select Round((P1+P2),4) FROM P1_diff,P2_diff;
 ---------------------------------------------------------------------
 1. Second highest salary in database ?
 
