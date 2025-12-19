@@ -52,6 +52,20 @@ These neural networks are inspired from human brain. It has different algorithms
 ***GenAI (subdomain of DL)
 We are dealing with tehnologies generate.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+***Machine Learning
+Algorithmn we deal here which learned from data. --> 
+Step1: Trainig Model 
+Step2: Predictions
+
+Home, Car -> loan application apply -> predict whether loan should accepted or rejected by Bank.
+-> We can do this by checking old data. 
+-> Understand applicant's characteristics, 
+-> By using Old data, we understand Which applicant is accepted and rejected.
+-> Credit score value, salary, Education level, collateral (multiple characteristics)
+--> This is training Step
+--> when new applicant -> check parameters -> making predictions
+
 
 
 
