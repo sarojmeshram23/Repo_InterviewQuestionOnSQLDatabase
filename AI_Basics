@@ -1,7 +1,9 @@
+AI -> ML -> DL -> Gen AI
+
 Unlock our phone with Face ID , Ask Siri to "What's weather today ?"
 -> We are actually using "Computer Vision" and NLP.
 
-We are using Tools s.a ChatGpt and GenAI -> we are using "LLM(Large language Models)".
+We are using Tools s.a ChatGpt and Gemini -> we are using "LLM(Large language Models)".
 
 Every app is full of recommendations. e.g.Amazon when we use, they recommend us what to buy.
 Uber shows traffic prediction, arrival time estimation with great accuracy. 
@@ -29,10 +31,10 @@ CAr Image -> where is number plate and what is written. Traffic police automatic
 
 *****Machine Learning (One of branch of AI)
 Majority of AI which we can see, that AI is machine learning.
-ML are those algorithms that leearned by using data rather than programming.
+ML are those algorithms that learned by using data rather than programming.
 Inside ML, data is very important.
 Each company has lots of data and that is why we can see so many practical application of ML algorithms.
-ML is subdomain of AI. Everything of ML is AI. But everything as I is not ML. There are some parts of AI which is not ML.
+ML is subdomain of AI. Everything of ML is AI. But everything as AI is not ML. There are some parts of AI which is not ML.
 
 AI = ML(majority), 
      Rule Based systems(here we do programming rather than learning from data), 
@@ -40,10 +42,15 @@ AI = ML(majority),
      A* Algorithms, 
      Fuzzy logic systems(Ac's, Freeze)
 
-Majority Of AI is ML -> LLMs, Google Maps, Uber, Amazon, BlinkIt App.
+Majority of AI is ML -> LLMs, Google Maps, Uber, Amazon, BlinkIt App.
                         ML has different Algorithms. E.g. Linear Regression, Logistic Regression, Support Vector Machines, Decision Tress and so on.
                         ML has subdomain as Deep Learning(which is very popular today)
 
+***Deep Leaning (here we can work on neaural networks)
+These neural networks are inspired from human brain. It has different algorithms like  FNN, RNN, CNN, Tranformers used in ChatGPT.
+
+***GenAI (subdomain of DL)
+We are dealing with tehnologies generate.
 
 
 
