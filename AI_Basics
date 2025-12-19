@@ -31,6 +31,25 @@ CAr Image -> where is number plate and what is written. Traffic police automatic
 Majority of AI which we can see, that AI is machine learning.
 ML are those algorithms that leearned by using data rather than programming.
 Inside ML, data is very important.
+Each company has lots of data and that is why we can see so many practical application of ML algorithms.
+ML is subdomain of AI. Everything of ML is AI. But everything as I is not ML. There are some parts of AI which is not ML.
+
+AI = ML(majority), 
+     Rule Based systems(here we do programming rather than learning from data), 
+     Robotics, 
+     A* Algorithms, 
+     Fuzzy logic systems(Ac's, Freeze)
+
+Majority Of AI is ML -> LLMs, Google Maps, Uber, Amazon, BlinkIt App.
+                        ML has different Algorithms. E.g. Linear Regression, Logistic Regression, Support Vector Machines, Decision Tress and so on.
+                        ML has subdomain as Deep Learning(which is very popular today)
+
+
+
+
+
+
+
 
 
 
