@@ -14,7 +14,31 @@ Algorithms
 Use Cases of AI
 
 ***What is AI ?
-AI is a technology which allows computers, system perform tasks that Human intelligence can perform
+AI is a technology which allows computers, system perform tasks that typically requires Human intelligence.
+e.g.(1) Pattern Recognition.. As a human we are good at understanding the patterns.
+1 -> 1
+2 -> 4
+3 -> 9
+It has some pattern as square of the number. This is simple example of pattern recognition. This also we can perform with technology i.e. AI.
+
+e.g.(2) Speech Recognition. with Siri, Alexa,  -> we understand its meaning, context, emotions.
+ChatGpt(Voice), Gemini(Voice) -> interact with Voice.
+
+e.g.(3) Image Analysis -> we can understand what different objects has been used, if number is used what are these numbers.
+CAr Image -> where is number plate and what is written. Traffic police automatic challan.
+
+*****Machine Learning (One of branch of AI)
+Majority of AI which we can see, that AI is machine learning.
+ML are those algorithms that leearned by using data rather than programming.
+Inside ML, data is very important.
+
+
+
+
+
+
+
+
 
 Reference:
 https://www.youtube.com/watch?v=D1eL1EnxXXQ  (Apna College Channel)
