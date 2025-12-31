@@ -1,0 +1,55 @@
+Download & Install :-
+ ---------------------------
+
+   1  SQL SERVER
+   2  SSMS
+
+SQL SERVER :- 
+------------------------
+
+ Download :- 
+ ---------------
+ 
+ https://www.microsoft.com/en-in/sql-server/sql-server-downloads
+
+INSTALLATION :-
+--------------------------
+
+ https://www.mssqltips.com/sqlservertip/11453/install-sql-server-2025-standard-developer-edition/
+
+SSMS :- 
+--------------
+
+DOWNLOAD :-
+---------------------
+
+https://learn.microsoft.com/en-us/ssms/install/install
+
+How to connect to sql server :- 
+-------------------------------------------
+
+ => open ssms and enter following details 
+ 
+         	SERVER TYPE	:-	 DB Engine
+	SERVER NAME	:-	 DESKTOP-G2DM7GI
+	AUTHENTICATION	:-	 windows / sql server	
+	LOGIN		:-                SA (system admin)
+	PASSWORD	:-	 123
+ 
+
+How to create Database :-
+----------------------------------
+
+=> In object explorer select Databases => New Database
+
+              Enter Database Name :- DB4PM
+          
+ => click OK
+ => a new db is created with following  files 
+
+   1 DATA FILE  (.MDF  master data file)
+   2 LOG FILE   (.LDF   log data file)
+
+    NAME		TYPE		SIZE	AUTOGROWTH	 PATH
+    DB4PM		DATA		8 MB	64 MB		C:\
+    DB4PM_LOG	LOG		8 MB	64 MB		C:\
