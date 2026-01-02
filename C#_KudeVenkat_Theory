@@ -11,7 +11,9 @@ string
 
 Verbatim Literal 
 ------------------
+Verbatim Literal is a string with @ symbol prefix as in @"Hello". It enhances readability.
 string name = @"C:\\Pragim";
 o/p C:\\Pragim
+
 
 
