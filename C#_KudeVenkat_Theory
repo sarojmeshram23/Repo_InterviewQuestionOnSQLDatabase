@@ -1,1 +1,17 @@
+Video #2
+------------------------------------------------
+
+Built in Types in C#
+------------------------
+Boolean
+Int
+Float 
+Decimal
+string
+
+Verbatim Literal 
+------------------
+string name = @"C:\\Pragim";
+o/p C:\\Pragim
+
 
