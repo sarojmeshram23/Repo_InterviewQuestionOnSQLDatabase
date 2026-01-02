@@ -15,5 +15,12 @@ Verbatim Literal is a string with @ symbol prefix as in @"Hello". It enhances re
 string name = @"C:\\Pragim";
 o/p C:\\Pragim
 
+Video #6
+------------------------------------------------
+Nullable Types in C#
+---------------------
+Value Types -int, float, double, structs, enums, etc.
+Reference Types - Interface, class, delegate, arrays, etc.
 
+ByDefault value types are non-nullable, To make them nullable use 
 
