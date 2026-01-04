@@ -92,14 +92,18 @@ Here, we solve 2 problems,
    1.2 Multi-Class Classification
 2. Regression Problems -> Try to product numerical output. E.g. Zomato, Swiggy, Stock Price based on old data.
 
-Some Classification Algorithms
-----------------------------------
+Some Classification Algorithms:->
 1. Linear Classifiers
 2. Logistic Regression
 3. K-Nearest Neighbour(KNN)
 4. Support Vector Machine(SVM) -> RVM
-5. Random Forest
+5. Random Forestte 
 6. XG Boost
+
+Some Regression Algorithms:->
+1. Linear Regression
+2. Lasso Regression
+3. Multi-Variate Regerssion
 
 Unsupervised Learning 
 -----------------------------
