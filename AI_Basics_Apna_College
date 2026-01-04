@@ -73,7 +73,8 @@ Step 2: Make Predictions/Inference.
 
 Def: ML is the process of teaching computers to learn patterns from data and make decisions based on those patterns.
 
-ML takes i/p and o/p -----> logic/Model
+ML takes i/p, o/p -----> logic(ML Model); predicts output for new data. 
+Traditional Program : i/p ---> produce output
 
 ML TYPES
 ------------
@@ -83,7 +84,22 @@ ML TYPES
 
 Supervised Learning 
 -------------------------
-Models learn from labeled data.
+Models learn from labeled data. e.g. Spam detection system.
+For e.g Labeled Data: Email Text, Sender Email, Link, Exclamations, label  ==> Based on these attributes, we decide the email is SPAM or NOT.
+Here, we solve 2 problems,
+1. Classification Problems: e.g. Load is Yes or NO. no infinite classification.
+   1.1. Binary Classification
+   1.2 Multi-Class Classification
+2. Regression Problems -> Try to product numerical output. E.g. Zomato, Swiggy, Stock Price based on old data.
+
+Some Classification Algorithms
+----------------------------------
+1. Linear Classifiers
+2. Logistic Regression
+3. K-Nearest Neighbour(KNN)
+4. Support Vector Machine(SVM) -> RVM
+5. Random Forest
+6. XG Boost
 
 Unsupervised Learning 
 -----------------------------
