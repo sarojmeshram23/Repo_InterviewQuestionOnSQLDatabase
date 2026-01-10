@@ -165,35 +165,34 @@ FNN (Feed Forward Neural Network)
 RNN (Recurrent Neural Networks)
 CNN (Convolutional Neural Networks) - used for images, videos
 Transformers - Nowadys used a lot nowadays e.g. GPT(Generative Pre-trained Tranformer) used transformers.
-                                            -> A whole sentence splits into token 
-                                            -> Strong sense behind meaning of the data.
+                                           -> There is specific mechanism in Transformers i.e. Attention
+                                            -> A whole sentence splits into token.
+                                            -> Strong sense behind context and meaning of the data.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Gen AI (Generative AI) 
-- text, audio, video is generated
+- text, audio, video, images is generated. New things is generated.
 - E.g. ChatGpt
+- e.g. Github Capilot which generate code for us.
+  e.g. Saura which generate Video for us.
 
-Text -> GPT, Claude, Gemini, LLaMA
-Images -> Midjourney, DALL.E, Stable Diffusion
+Text -> GPT, Claude(funded by amazon), Gemini, LLaMA
+Images -> Midjourney, DALL.E, Stable Diffusion(Open Source)
 Audio -> ElevenLabs, Bark, MusicGen
 Videos -> Sora, Runway, HeyGen
-Code -> Github Capilot, Code Lliama, CodeWhisperer.
+Code -> Github Capilot, Code Lliama, CodeWhisperer(by amazon focuses on AWS).
 
+NLP and LLMs
+----------------
+NLP (Natural Language Processing) is a domain for ML. Understand, interpret and generate human language.
+LLM (Large Language Model) - which can be used to solve NL{ task. popular model in today's time. Large feed of data to train them.
+                            - used Internet text, books, articles... there is lot of data consumed to trained on. 
+                            - Biilons, trillion od parameters are used.
+**Tools 
+Open AI created ChatGPT by Microsoft
 
-
-
-
-
-
-
-
-
-(15 min)
-
-
-
-
-
-
+Computer Vision(CNN used) -
+  -> See images, videos 
+  ->used by Self driving cars
 
 Reference:
 https://www.youtube.com/watch?v=D1eL1EnxXXQ  (Apna College Channel)
