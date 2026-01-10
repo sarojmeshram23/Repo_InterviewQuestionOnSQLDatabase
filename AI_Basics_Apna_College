@@ -111,7 +111,41 @@ Models learn from unlabeled data.  Divide related data into cluster/group.
 E.g. News Article, Tech related article in different group, Politics in other. We dont have any data, based on relation we divide data.
 -> Here we solve 2 problems
 1. Clustering Problem - Partitional, Hierarchical
-2. Association Problem
+2. Association Problem - Market Basket Analysis. e.g. Items bought together in amazon. 
+
+Algorithms:
+k-Means Clustering
+Hierarchical Clustering
+PCA
+DBSCAN
+
+Reinforcement Learning
+------------------------
+In RL, an agent learns to make decisions by interacting with an environment, receiving rewards or penalties for its actions.
+e.g. we train our DOG, auto driven car, Robotics.
+
+**RL Algos
+Q-Learning
+DQN
+Policy Gradient Methods
+Proximal Policy Optimization(PPO)
+
+Tools used for implementation:->
+Python is used, 
+Jupiter Notebook(Write Python code)
+Libraries: Numpy, Pandas
+Visualization: Seaborn, MatplotLib
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Deep Learning - (Subset of ML) - Neural Networks
+
+Extracting data from raw data. Inspired from human brain.
+
+Unstructured data : Camera recording, Video Recoding, Images data, audio data, chat messages.
+
+Models -> Feed data -> Analyze images ->
+
+What is Neural Networks ?
 
 
 
