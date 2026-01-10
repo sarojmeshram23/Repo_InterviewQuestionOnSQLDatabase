@@ -87,10 +87,10 @@ Supervised Learning
 Models learn from labeled data. e.g. Spam detection system.
 For e.g Labeled Data: Email Text, Sender Email, Link, Exclamations, label  ==> Based on these attributes, we decide the email is SPAM or NOT.
 Here, we solve 2 problems,
-1. Classification Problems: e.g. Load is Yes or NO. no infinite classification.
-   1.1. Binary Classification
+1. Classification Problems: e.g. Loan Approval is Yes or NO. no infinite classification.
+   1.1 Binary Classification 
    1.2 Multi-Class Classification
-2. Regression Problems -> Try to product numerical output. E.g. Zomato, Swiggy, Stock Price based on old data.
+2. Regression Problems -> Try to predict numerical output based on historical data. E.g. Zomato, Swiggy, Stock Price based on old data.
 
 Some Classification Algorithms:->
 1. Linear Classifiers
@@ -107,6 +107,13 @@ Some Regression Algorithms:->
 
 Unsupervised Learning 
 -----------------------------
+Models learn from unlabeled data.  Divide related data into cluster/group. 
+E.g. News Article, Tech related article in different group, Politics in other. We dont have any data, based on relation we divide data.
+-> Here we solve 2 problems
+1. Clustering Problem - Partitional, Hierarchical
+2. Association Problem
+
+
 
 
 
