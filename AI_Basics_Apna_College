@@ -146,7 +146,28 @@ Unstructured data : Camera recording, Video Recoding, Images data, audio data, c
 Models -> Feed data -> Analyze images ->
 
 What is Neural Networks ?
+E.g. In Collge calculate CGPI.. Each exam has some weightage. Calcualte by doing trial and error. And output accuracy is as accurate as possible.
 
+Training Neural Networks
+------------------------
+Forward and Backward Propagation 
+--Sigmoid Function, RELU
+
+Tools Used
+---------------
+TensorFlow - Google created it
+PyTorch - Meta created it  - More simpler as beginner
+Kaggle 
+
+Neural Network Architectures
+----------------------------
+FNN (Feed Forward Neural Network)
+RNN (Recurrent Neural Networks)
+CNN (Convolutional Neural Networks)
+Transformers
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gen AI
 
 
 
