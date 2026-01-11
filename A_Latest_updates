@@ -1,4 +1,5 @@
 What is MERN Stack ?
+------------------------
 The MERN stack is a popular, JavaScript-based collection of technologies used to build dynamic web and mobile applications, standing for
 MongoDB (database), 
 Express.js (backend framework), 
@@ -6,3 +7,9 @@ React (frontend library), and
 Node.js (runtime environment). 
 
 It allows developers to use JavaScript across the entire stack (front-end, back-end, and database) for building full-stack applications. 
+
+What is GitHub Capilot and its use ?
+---------------------------------------
+GitHub Copilot is an AI-powered coding assistant that acts as a pair programmer, helping developers write code faster by providing
+real-time, contextual suggestions for line completions or entire blocks of code directly in their editor (like VS Code, Visual Studio, 
+JetBrains IDEs)
