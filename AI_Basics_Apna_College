@@ -200,10 +200,45 @@ https://www.youtube.com/watch?v=D1eL1EnxXXQ  (Apna College Channel)
 
 AI Engineer Roadmap
 -----------------------
-AI Engineer  --> work with AI/ML, Data, Backend Development 
+AI Engineer--> work with AI/ML, Data, Backend Development 
 
+What AI engineer Do ?
+Kisi bhi application ke subpart ko AI se integrate karne ka kaam via API or Models.
+
+Where AI Engineer lies ?
 Data Scientist - AI engineering - Software Engineer
 
-APP -> integrate through AI
+3 Fundamental Concepts:-(Math, Python, DSA)
+MATH : In ML, store data in the form of Vectors & Metrices, In algo different mathematical concepts has been used,
+       Discrete Mthematics
+       Probability
+       Calculus
+       Linear Algebra
+Python : In AI, Python is most popular language. Syntax, variables, 
+        -OOPs, functions, Loops, Conditionals, Variables.
+Core DSA (Data Structure & Algorithms):  Arrays, LinkedList, Stack, Queues, Trees, 
+Learning about DataScience: Dealing with Data. How to clean data, Analyze & pre-process data.
+                            DataSource can be used from website s.a. Kaggle.
+                            use Python libraries NumPy, RegEx, OpenCV, Pandas.
+                            For Visualization we use :- MatPlotLib, Seaborn
+Machine Learning: Supervised(e.g.Email Spam,unspam), UnSupervised, Reinforcement Learning(e.g.Training Dogs)
+                 Algorithms:
+                        Regression
+                        Classification
+                        Decision Tress
+                        SVM
+                        Clustering
+                        Reinforcement Learning
+Deep Larning: ANN, CNN, RNN, GAN
+LLMs: (e.g. ChatGPT, Gemini, LLAMA2) popular use cases 
+NLP: Sentiment Analysis, Speech Analysis
+GenAI: Text generate.
+Real World Projects
 
+
+
+
+
+Step by step Process 
+Avg Salary 
 
