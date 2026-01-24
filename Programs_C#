@@ -1,1 +1,12 @@
+1. Swap two numbers without using third variable. 
+
+a = a ^ b
+b = a ^ b
+a = a^b
+
+Or
+
+a = a - b
+b = a + b
+a = a - b
 
